@@ -1,0 +1,13 @@
+Configurações globais
+git config --global user.name "Nome pessoal"
+git config --global user.email "email de cadastro do GibHub"
+
+Iniciar um projeto
+echo "Nome do projeto para identificar no arquivo readme.md" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "Mensagem explicativa"
+git branch -M main
+git remote add origin git@github.com:usuario/seuprojeto.git
+git push -u origin main

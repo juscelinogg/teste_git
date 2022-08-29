@@ -1,0 +1,5 @@
+Configurações globais
+git config --global user.name "Nome pessoal"
+git config --global user.email "email de cadastro do GibHub"
+
+
